@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .App-logo {
@@ -35,4 +38,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pokemonList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.pokemonLi{
+  margin:20px;
+  width: 180px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(186, 216, 218);
+}
+
+.pokemonName{
+  border-top: 2px solid black;
+  margin: 0;
+  padding: 8px;
+}
+
+.pokemonImage{
+  height: 26vh;
+}
+
+.typeList{
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid black;
+  padding: 5px;
+}
+
+.typeLi{
+  text-align: left;
+  padding: 8px;
 }
