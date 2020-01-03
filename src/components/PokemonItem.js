@@ -16,9 +16,7 @@ const PokemonItem = (props) => {
 }
 
 PokemonItem.propTypes = {
-  image: PropTypes.string,
   name: PropTypes.string,
-  typesArray:PropTypes.arrayOf(PropTypes.string)
 };
 
 export default PokemonItem;
