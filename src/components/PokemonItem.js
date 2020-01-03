@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const PokemonItem = (props) => {
   return <div>
@@ -14,5 +15,10 @@ const PokemonItem = (props) => {
   </div>
 }
 
+PokemonItem.propTypes = {
+  image: PropTypes.string,
+  name: PropTypes.string,
+  typesArray:PropTypes.arrayOf(PropTypes.string)
+};
 
 export default PokemonItem;
